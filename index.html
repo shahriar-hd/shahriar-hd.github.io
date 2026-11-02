@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahriar Hooshmand | AI Engineer — Computer Vision &amp; VLM</title>
+  <meta name="description" content="Portfolio of Shahriar Hooshmand, an AI Engineer working on computer vision and vision-language models: document OCR, face anti-spoofing, and real-time detection on edge hardware.">
+  <meta name="author" content="Shahriar Hooshmand">
+  <meta name="theme-color" content="#f6f3ee">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230f766e'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3ESH%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to content</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Shahriar Hooshmand, home">
+      <span class="brand-mark">SH</span>
+      <span class="brand-name">Shahriar Hooshmand</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary" data-site-nav>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="assets/resume.pdf" download>CV</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section id="top" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">AI Engineer · Computer Vision &amp; VLM</p>
+        <h1>Shahriar Hooshmand</h1>
+        <p class="hero-lede">
+          I build computer-vision and vision-language systems that ship: document OCR, face
+          anti-spoofing, and real-time detection deployed to the edge. Strongest in PyTorch,
+          OpenCV, and turning a trained model into a usable, measurable product.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-secondary" href="assets/resume.pdf" download>Download CV</a>
+        </div>
+
+        <ul class="hero-meta" id="stats" aria-label="Profile highlights">
+          <li>
+            <strong class="stat-num" data-count-to="18" data-source="repos">18</strong>
+            <span>Public repos</span>
+          </li>
+          <li>
+            <strong class="stat-num" data-count-to="192" data-source="commits">192</strong>
+            <span>Commits</span>
+          </li>
+          <li>
+            <strong class="stat-num" data-count-to="3" data-source="prs">3</strong>
+            <span>Pull requests</span>
+          </li>
+          <li>
+            <strong class="stat-num" data-count-to="5">5</strong>
+            <span>AI models</span>
+          </li>
+          <li>
+            <strong class="stat-num" data-count-to="500" data-suffix="+">500+</strong>
+            <span>LinkedIn connections</span>
+          </li>
+        </ul>
+      </div>
+
+      <aside class="profile-panel" aria-label="Profile">
+        <div class="photo-frame">
+          <picture>
+            <source srcset="assets/me.webp" type="image/webp">
+            <img src="assets/me.png" width="900" height="1350"
+                 alt="Portrait of Shahriar Hooshmand" fetchpriority="high"
+                 onerror="this.closest('.profile-panel').classList.add('photo-missing')">
+          </picture>
+          <span class="photo-fallback">assets/me.png</span>
+        </div>
+        <div class="profile-card">
+          <p class="profile-kicker">Currently</p>
+          <h2>AI Engineer · Computer Vision &amp; VLM</h2>
+          <p>Persian document OCR, multi-task face authentication, and real-time detection on Raspberry Pi.</p>
+          <div class="social-links" aria-label="Contact links">
+            <a href="mailto:shahriar.hd@outlook.com">Email</a>
+            <a href="https://github.com/shahriar-hd" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://huggingface.co/shahriarhd" target="_blank" rel="noopener">Hugging Face</a>
+            <a href="https://www.linkedin.com/in/shahriar-hooshmand-7a8b10261/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section intro">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>From hardware tinkering to production vision systems.</h2>
+      </div>
+      <div class="intro-grid">
+        <p>
+          I started with hardware long before I wrote my first line of code, and that mindset still
+          shapes how I build: understand the whole system, then make it work end to end. Today I focus
+          on computer vision and vision-language models — document AI, face anti-spoofing, and
+          real-time detection — and I care most about turning a trained model into something usable
+          and measurable.
+        </p>
+        <div class="focus-cloud" aria-label="Focus areas">
+          <span>Computer Vision</span>
+          <span>Vision-Language Models</span>
+          <span>Document AI / OCR</span>
+          <span>Face Anti-Spoofing</span>
+          <span>Edge Deployment</span>
+          <span>IoT + AI</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <div class="section-heading wide">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects with measurable results.</h2>
+        <p>Live from my GitHub profile — the six pinned repositories, with details and demos, plus every other public repo.</p>
+      </div>
+
+      <div id="pinned-repos" class="project-grid">
+        <p class="fallback">Loading pinned repositories…</p>
+      </div>
+
+      <p class="last-worked-row"><span class="card-label">Last worked on</span> <span id="last-worked">Checking recent activity…</span></p>
+
+      <h3 class="subhead">Other repositories</h3>
+      <div id="other-repos" class="repo-rail">
+        <p class="fallback">Loading repositories…</p>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section split-section">
+      <div class="section-heading sticky-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Where I've worked.</h2>
+        <p>Applied AI and automation, from fine-tuning to team workflows.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-card">
+          <div class="timeline-meta">
+            <span>Jun – Sep 2026 · 3 months</span>
+            <strong>Zilber</strong>
+          </div>
+          <h3>AI &amp; Automation Intern</h3>
+          <ul>
+            <li>Learned and applied GitHub workflows in a team setting.</li>
+            <li>Worked hands-on with LoRA fine-tuning and OCR vision-language models, contributing to AI projects.</li>
+            <li>Gained practical exposure to basic ERP and automation workflows.</li>
+          </ul>
+          <div class="experience-tags"><span>LoRA</span><span>OCR VLM</span><span>GitHub</span><span>Automation</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section">
+      <div class="section-heading wide">
+        <p class="eyebrow">Education</p>
+        <h2>B.Sc. Computer Engineering — KUT.</h2>
+      </div>
+
+      <article class="edu-card">
+        <div class="timeline-meta">
+          <span>2022 – 2026</span>
+          <strong>GPA 3.67 / 4.00 (18.19/20)</strong>
+        </div>
+        <h3>Kermanshah University of Technology, Kermanshah, Iran</h3>
+        <p>
+          <strong>Thesis — Multi-Task Face Authentication &amp; Deepfake Detection:</strong>
+          one EfficientNet-B2 backbone with three heads (deepfake, spoof, temporal consistency),
+          reaching anti-spoofing AUC 0.9856 on SiW-Mv2 and deepfake AUC 0.8854 on FaceForensics++.
+        </p>
+      </article>
+
+      <div class="recognition-grid">
+        <article>
+          <span>2026</span>
+          <h3>Top 3 academically</h3>
+          <p>Among graduated students, Department of Information Technology.</p>
+        </article>
+        <article>
+          <span>2025</span>
+          <h3>25th nationally</h3>
+          <p>30th National Computer Engineering Student Olympiad.</p>
+        </article>
+        <article>
+          <span>2022</span>
+          <h3>Top 5.3%</h3>
+          <p>Among 145,000+ participants, Iranian National University Entrance Exam (Konkur).</p>
+        </article>
+        <article>
+          <span>2024 – 2025</span>
+          <h3>Teaching Assistant</h3>
+          <p>Computer Architecture (Fall 2024, Spring 2025) and Algorithm Design (Fall 2025).</p>
+        </article>
+        <article>
+          <span>2025 – 2026</span>
+          <h3>Editor-in-Chief</h3>
+          <p><em>Byte Vision</em> scientific publication, Kermanshah University of Technology.</p>
+        </article>
+        <article>
+          <span>2024 – 2025</span>
+          <h3>Vice-Secretary</h3>
+          <p>Computer Engineering Scientific Association; co-organized 20+ workshops and seminars for ~200 students.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS / TECHNICAL FOUNDATION ================= -->
+    <section id="skills" class="section split-section">
+      <div class="section-heading sticky-heading">
+        <p class="eyebrow">Technical foundation</p>
+        <h2>Engineering across models, data, and deployment.</h2>
+        <p>The tools I reach for, from research prototypes to edge deployment.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <ul class="tech-list">
+            <li>Python (proficient)</li><li>C/C++ (proficient)</li><li>Java (familiar)</li><li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Deep Learning &amp; CV</h4>
+          <ul class="tech-list">
+            <li>PyTorch</li><li>TensorFlow/Keras</li><li>OpenCV</li><li>YOLOv8 / YOLOv11</li>
+            <li>EfficientNet</li><li>LoRA / PEFT</li><li>ONNX</li><li>NumPy</li><li>Pandas</li>
+            <li>Matplotlib</li><li>scikit-learn</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Document AI</h4>
+          <ul class="tech-list">
+            <li>PaddleOCR-VL</li><li>Vision-language models</li><li>OCR evaluation (CER/WER)</li>
+            <li>Synthetic datasets</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Deployment &amp; tools</h4>
+          <ul class="tech-list">
+            <li>Git/GitHub</li><li>Linux</li><li>Jupyter</li><li>Flask</li><li>SQLite</li>
+            <li>Raspberry Pi</li><li>NCNN</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Earlier experience</h4>
+          <ul class="tech-list">
+            <li>Arduino</li><li>ESP32</li><li>AVR</li><li>VHDL</li><li>Android</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Spoken languages</h4>
+          <ul class="tech-list">
+            <li>Persian (native)</li><li>English (professional working proficiency)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RESEARCH ================= -->
+    <section id="research" class="section split-section">
+      <div class="section-heading sticky-heading">
+        <p class="eyebrow">Research</p>
+        <h2>Research interests.</h2>
+        <p>Where I want to push the work next, beyond shipping demos.</p>
+      </div>
+      <div class="research-card">
+        <p class="research-label">Focus areas</p>
+        <ul class="research-details">
+          <li><strong>Self-supervised &amp; unsupervised learning</strong> in computer vision.</li>
+          <li><strong>Vision Transformers &amp; attention</strong> mechanisms.</li>
+          <li><strong>Efficient deep learning &amp; model compression.</strong></li>
+          <li><strong>Adversarial robustness</strong> in vision models.</li>
+          <li><strong>Federated learning</strong> for privacy-preserving CV.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">Next</p>
+        <h2>Open to AI engineering roles and collaborations.</h2>
+      </div>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:shahriar.hd@outlook.com">Email me</a>
+        <a class="button button-secondary" href="https://github.com/shahriar-hd" target="_blank" rel="noopener">GitHub</a>
+        <a class="button button-secondary" href="https://huggingface.co/shahriarhd" target="_blank" rel="noopener">Hugging Face</a>
+        <a class="button button-secondary" href="https://www.linkedin.com/in/shahriar-hooshmand-7a8b10261/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="button button-secondary" href="assets/resume.pdf" download>Download CV</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Shahriar Hooshmand. Built for clarity and speed.</p>
+    <button type="button" class="back-to-top" data-back-to-top>Back to top</button>
+  </footer>
+
+  <!-- ================= MODAL ================= -->
+  <div id="modal" class="modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+      <p class="card-label modal-label"></p>
+      <h2 id="modal-title" class="modal-title"></h2>
+      <p class="modal-subtitle"></p>
+      <p class="modal-desc"></p>
+      <p class="modal-metric"></p>
+      <dl class="modal-meta"></dl>
+      <div class="button-row modal-actions"></div>
+    </div>
+  </div>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
